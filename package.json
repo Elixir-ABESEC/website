@@ -25,7 +25,10 @@
 	},
 	"lint-staged": {
 		"linters": {
-			"src/**/*.{js,css}": ["prettier --write", "git add"]
+			"src/**/*.{js,css}": [
+				"prettier --write",
+				"git add"
+			]
 		}
 	},
 	"eslintConfig": {
@@ -48,7 +51,6 @@
 	},
 	"devDependencies": {
 		"husky": "^7.0.2",
-		"lint-staged": "^11.2.3",
 		"prettier": "^2.4.1"
 	}
 }
