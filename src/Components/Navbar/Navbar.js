@@ -5,7 +5,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     /* Write you HTML components/tags here. */
-    <div className='navbar'>
+      <div className='navbar'>
       <div className='logo navbar__left'>Elixir</div>
       <div className='navbar_right'>
       <div className='navbar__right__box__left'>
@@ -17,10 +17,9 @@ function Navbar() {
       </div>
        <div className='navbar__right__box__right'>
         <input type="search" placeholder='search'/>
-        <button>Subscribe</button>
        </div>
       </div>
-    </div>
+      </div>
   );
 }
 
