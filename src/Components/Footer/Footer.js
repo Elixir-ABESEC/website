@@ -2,8 +2,6 @@ import React from "react";
 import "./Footer.css";
 
 function Footer() {
-  const Icon = require("simple-icons/icons/github");
-  console.log(Icon);
   return (
     <div className="Footer">
       <div className="Footer_Left">
