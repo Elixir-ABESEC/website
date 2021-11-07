@@ -33,13 +33,13 @@ function Footer() {
       <div className="Footer_Right">
         <div>
           <span className="Footer_Icon">
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </span>
           <span className="Footer_Icon">
-            <i class="fab fa-facebook-square"></i>
+            <i className="fab fa-facebook-square"></i>
           </span>
           <span className="Footer_Icon">
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
           </span>
         </div>
         <h3 className="Heading">Subscribe to our Newsletter</h3>
