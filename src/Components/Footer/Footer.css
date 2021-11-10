@@ -76,3 +76,18 @@
   width: 100%;
   height: 200px;
 }
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+  .navbar__right__box__left{
+    color: red;
+  }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .navbar__right__box__left{
+    color: green;
+  }
+}
+
